@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="cal.css" />
+    <title>Calculator</title>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <h1 id="tester">My Calculator</h1>
+    <div class="container">
+      <input class="display" id="calcField" type="text" placeholder="0" />
+      <div class="number">
+        <div class="numbers" id="del"><button data-action="clear">AC</button></div>
+        <div class="numbers">
+          <button class="num">1</button>
+        </div>
+        <div id="num1" class="numbers"><button class>2</button></div>
+        <div class="numbers"><button class>3</button></div>
+        <div class="numbers"><button class>4</button></div>
+        <div class="numbers"><button class>5</button></div>
+        <div class="numbers"><button class>6</button></div>
+        <div class="numbers"><button class>7</button></div>
+        <div class="numbers"><button class>8</button></div>
+        <div class="numbers"><button class=>9</button></div>
+        <div class="numbers"><button class>0</button></div>
+        <div class="numbers"><button class="orange" class="key--operator" data-action="multiply">*</button></div>
+        <div class="numbers"><button class="orange" class="key--operator" data-action="add">+</button></div>
+        <div class="numbers"><button class="orange" class="key--operator" data-action="subtract">-</button></div>
+        <div class="numbers"><button class="orange"  class="key--operator" data-action="divide">/</button></div>
+        <div class="numbers"><button class="orange" data-action="decimal">.</button></div>
+        <div id="equal"><button class="black" class="key--equal" data-action="calculate">=</button></div>
+      </div>
+    </div>
+  </body>
+</html>
